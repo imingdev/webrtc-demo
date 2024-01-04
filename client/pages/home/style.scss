@@ -1,0 +1,33 @@
+@use "sass:math";
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.player {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+
+  &:before {
+    display: block;
+    padding-bottom: math.div(9, 16) * 100%;
+    content: '';
+  }
+}
+
+.playerInner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.start {
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
