@@ -16,8 +16,7 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.21.1",
     "socket.io": "^4.7.2",
-    "socket.io-client": "^4.7.2",
-    "ws": "^7.5.9"
+    "socket.io-client": "^4.7.2"
   },
   "devDependencies": {
     "@pieced/font-config-webpack-plugin": "^1.0.5",
